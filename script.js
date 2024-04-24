@@ -1,7 +1,4 @@
-// Gerar número aleatório entre 1 e 100
 const secretNumber = Math.floor(Math.random() * 100) + 1;
-
-// Função para verificar o palpite do jogador
 function checkGuess() {
     const guess = parseInt(document.getElementById('guess').value);
     const feedback = document.getElementById('feedback');
